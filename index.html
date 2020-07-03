@@ -4,12 +4,13 @@
 
 	<head>
 
+		<meta charset="UTF-8">
+
 		<title>Hi, I'm Nick.</title>
 
 		<style type="text/css">
 
-			@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-			@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@700&display=swap');
 
 			* {
 				margin: 0;
@@ -17,82 +18,66 @@
 			}
 
 			body {
-				background: #121212;
+				background: rgba(62, 61, 109);
 				color: #FFF;
 				text-align: center;
-				font-family: 'Roboto Mono', monospace;
+				font-family: 'Montserrat', sans-serif;
 				font-size: 18px;
-				min-width: 600px;
+				min-width: 650px;
 			}
 
 			a {
-				color: #f6e58d;
+				color: rgb(252, 248, 151);
+				border-bottom: 1px dashed rgb(252, 248, 151);
 				text-decoration: none;
 			}
 
 			a:hover {
-				color: #ffbe76;
-				border-bottom: 1px dashed #ffbe76;
+				border-bottom: none;
+			}
+
+			h1 {
+				font-family: 'Poppins', sans-serif;
+			}
+
+			h1, p {
+				margin: 5px 0;
 			}
 
 			/* Art header */
 			#character {
-				background: url('header.png');
+				background: url('header.jpg');
 				width: 300px;
-				height: 281px;
+				height: 300px;
 				margin: 0 auto;
 			}
 
 			#header {
-				padding-top: 75px;
-				background: #EBEBEB;
+				padding-top: 80px;
+				background: #FFF;
 				margin-bottom: 50px;
+				padding-bottom: 30px;
 			}
 
 			/* Social bar w/ links */
 			#social-bar {
-				margin-top: 50px;
-				background: #121212;
-				width: 100%;
-				font-family: 'Press Start 2P', cursive;
-				text-transform: uppercase;
-				font-size: 16px;
-			}
-
-			#social-bar a {
-				padding: 5px;
-				width: 200px;
-				display: inline-block;
-				text-align: left;
+				background: #FFF;
+				width: 500px;
+				margin: 50px auto 0 auto;
 				border-radius: 2px;
 			}
 
-			#social-bar a::before, #social-bar a::after {
-				content: '  ';
-				white-space: pre;
+			#social-bar a {
+				font-family: 'Poppins', sans-serif;
+				border-bottom: none;
+				color: #000;
+				padding: 10px;
+				display: inline-block;
 			}
 
 			#social-bar a:hover {
 				color: #000;
-				border-bottom: none;
-				background: #EEEE77;	
-			}
-
-			#social-bar a:hover::before {
-				content: '> ';
-			}
-
-			#social-bar a:hover::after {
-				content: ' <';
-			}
-
-			#social-bar ul {
-				margin-top: 15px;
-			}
-
-			#social-bar ul li::marker {
-				color: #6E6E6E;
-				content: '-';
+				background: rgb(252, 248, 151);
 			}
 
 			/* Floating tooltip */
@@ -116,19 +101,15 @@
 
 		<h1>Hi, I'm Nick.</h1>
 	
-		<p>Engine developer @ <a href="https://hypixelstudios.com" target="_blank">Hypixel Studios</a>, working on <a href="https://hytale.com" target="_blank">Hytale</a>.</p>
-		<p>Living the childhood dream of making games.</p>
+		<p>Engine and anticheat developer at <a href="https://hypixelstudios.com" target="_blank">Hypixel Studios</a> working on <a href="https://hytale.com" target="_blank">Hytale</a>.</p>
+		<p>Living the dream of creating fun through technology.</p>
 
 		<div id="social-bar">
-			<h3>Level Select:</h3>
-
-			<ul>
-				<li><a href="mailto:hello@nklow.com" friendly-icons-text="hello@nklow.com">Email</a></li>
-				<li><a href="https://github.com/Cryptkeeper" friendly-icons-text="github.com/Cryptkeeper" target="_blank">Github</a></li>
-				<li><a href="https://linkedin.com/in/nick-krecklow" friendly-icons-text="linkedin.com/in/nick-krecklow" target="_blank">LinkedIn</a></li>
-				<li><a href="https://twitter.com/ItsCryptkeeper" friendly-icons-text="@ItsCryptkeeper" target="_blank">Twitter</a></li>
-				<li><a href="https://keybase.io/itscryptkeeper" friendly-icons-text="keybase.io/itscryptkeeper" target="_blank">Keybase</a></li>
-			</ul>
+			<a href="mailto:hello@website.nklow.com" friendly-icons-text="hello@website.nklow.com">Email</a>
+			<a href="https://github.com/Cryptkeeper" friendly-icons-text="github.com/Cryptkeeper" target="_blank">Github</a>
+			<a href="https://linkedin.com/in/nick-krecklow" friendly-icons-text="linkedin.com/in/nick-krecklow" target="_blank">LinkedIn</a>
+			<a href="https://twitter.com/ItsCryptkeeper" friendly-icons-text="@ItsCryptkeeper" target="_blank">Twitter</a>
+			<a href="https://keybase.io/itscryptkeeper" friendly-icons-text="keybase.io/itscryptkeeper" target="_blank">Keybase</a>
 		</div>
 
 		<div id="friendly-icons-target"></div>
