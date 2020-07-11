@@ -36,12 +36,16 @@
 				border-bottom: none;
 			}
 
-			h1 {
+			h1, h2 {
 				font-family: 'Poppins', sans-serif;
 			}
 
 			h1, p {
 				margin: 5px 0;
+			}
+
+			#container {
+				margin-bottom: 50px;
 			}
 
 			/* Art header */
@@ -62,7 +66,7 @@
 			/* Social bar w/ links */
 			#social-bar {
 				background: #FFF;
-				width: 550px;
+				width: 500px;
 				margin: 50px auto 0 auto;
 				border-radius: 2px;
 			}
@@ -82,7 +86,7 @@
 
 			/* Floating tooltip */
 			#friendly-icons-target {
-				margin: 15px 0 50px 0;
+				margin: 15px 0 17px 0;
 				width: 100%;
 				height: 18px;
 			}
@@ -93,27 +97,36 @@
 
 	<body>
 
-		<div id="header">
+		<div id="container">
 
-			<div id="character"></div>
+			<div id="header">
 
-		</div>
-
-		<h1>Hi, I'm Nick.</h1>
+				<div id="character"></div>
 	
-		<p>Engine and anticheat developer at <a href="https://hypixelstudios.com" target="_blank">Hypixel Studios</a> working on <a href="https://hytale.com" target="_blank">Hytale</a>.</p>
-		<p>Living the dream of creating fun through technology.</p>
+			</div>
+	
+			<h1>Hi, I'm Nick.</h1>
+		
+			<p>Engine and anticheat developer at <a href="https://hypixelstudios.com" target="_blank">Hypixel Studios</a> working on <a href="https://hytale.com" target="_blank">Hytale</a>.</p>
+			<p>Living the dream of creating fun through technology.</p>
+	
+			<div id="social-bar">
+				<a href="mailto:hello@website.nklow.com" friendly-icons-text="hello@website.nklow.com">Email</a>
+				<a href="https://github.com/Cryptkeeper" friendly-icons-text="github.com/Cryptkeeper" target="_blank">Github</a>
+				<a href="https://linkedin.com/in/nick-krecklow" friendly-icons-text="linkedin.com/in/nick-krecklow" target="_blank">LinkedIn</a>
+				<a href="https://twitter.com/ItsCryptkeeper" friendly-icons-text="@ItsCryptkeeper" target="_blank">Twitter</a>
+				<a href="https://keybase.io/itscryptkeeper" friendly-icons-text="keybase.io/itscryptkeeper" target="_blank">Keybase</a>
+			</div>
+	
+			<div id="friendly-icons-target"></div>
+	
+			<h2>Recent Blog Posts</h2>
+	
+			<p>
+				July 11th 2020: <a href="https://blog.nklow.com/posts/five-years-of-minetrack/">Five Years of Minetrack</a>
+			</p>
 
-		<div id="social-bar">
-			<a href="mailto:hello@website.nklow.com" friendly-icons-text="hello@website.nklow.com">Email</a>
-			<a href="https://github.com/Cryptkeeper" friendly-icons-text="github.com/Cryptkeeper" target="_blank">Github</a>
-			<a href="https://linkedin.com/in/nick-krecklow" friendly-icons-text="linkedin.com/in/nick-krecklow" target="_blank">LinkedIn</a>
-			<a href="https://blog.nklow.com" friendly-icons-text="blog.nklow.com" target="_blank">Blog</a>
-			<a href="https://twitter.com/ItsCryptkeeper" friendly-icons-text="@ItsCryptkeeper" target="_blank">Twitter</a>
-			<a href="https://keybase.io/itscryptkeeper" friendly-icons-text="keybase.io/itscryptkeeper" target="_blank">Keybase</a>
 		</div>
-
-		<div id="friendly-icons-target"></div>
 
 		<script type="text/javascript">
 
